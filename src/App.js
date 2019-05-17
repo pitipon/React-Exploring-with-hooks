@@ -6,6 +6,8 @@ import MyButton from './components/Button/Button'
 import MyButtonWithHook from './components/Button/ButtonWithHook'
 import DataLoader from './components/DataLoader/DataLoader'
 import DataLoaderRefactor from './components/DataLoader/DataLoaderRefactor'
+import DataLoaderWithHook from './components/DataLoader/DataLoaderWithHook'
+import DataLoaderWithHookFunction from './components/DataLoader/DataLoaderWithHookFunction'
 
 import './App.css';
 
@@ -33,6 +35,9 @@ function App() {
             )
           }}
         />
+        <DataLoaderWithHook />
+        <DataLoaderWithHookFunction />
+
       </header>
     </div>
   );
