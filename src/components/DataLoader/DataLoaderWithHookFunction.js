@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import useFetch from './useFetch'
+// import useFetch from './useFetch'
+import useFetch from './useFetchWithAsync'
 
 export default function DataLoader(props) {
     const fetch = useFetch('https://pokeapi.co/api/v2/pokemon/')
